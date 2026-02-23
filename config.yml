@@ -1,0 +1,61 @@
+username: cclank
+
+profile:
+  name: "cclank"
+  tagline: "AI Engineer & Open Source Builder"
+  company: "Independent"
+  location: "United States"
+  bio: |
+    Building practical AI tooling and automation workflows.
+    Focused on agent systems, developer productivity, and open-source projects.
+  philosophy: '"Ship useful things, then iterate fast."'
+
+social:
+  website: "https://github.com/cclank"
+
+galaxy_arms:
+  - name: "AI Agents"
+    color: "dendrite_violet"
+    items:
+      - "TypeScript"
+      - "Python"
+      - "Claude Code"
+  - name: "Backend"
+    color: "synapse_cyan"
+    items:
+      - "Node.js"
+      - "SQLite"
+      - "Docker"
+  - name: "Platform"
+    color: "axon_amber"
+    items:
+      - "GitHub Actions"
+      - "MCP"
+      - "Automation"
+
+projects:
+  - repo: "cclank/nanoclaw"
+    arm: 1
+    description: "A lightweight personal AI assistant with container isolation and scheduled jobs."
+  - repo: "cclank/openclaw"
+    arm: 0
+    description: "Personal AI assistant framework for multi-platform workflows."
+  - repo: "cclank/model-ui-arena"
+    arm: 2
+    description: "Model UI exploration and interaction playground."
+
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8
