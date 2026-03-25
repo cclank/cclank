@@ -16,24 +16,24 @@
 
     <g transform="translate(30, 65)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">TypeScript</text>
-      <rect x="110" y="-6" width="93.6" height="12" rx="3" fill="#3178c6" opacity="0.85">
-        <animate attributeName="width" from="0" to="93.6" dur="0.8s" begin="0.0s" fill="freeze"/>
+      <rect x="110" y="-6" width="93.0" height="12" rx="3" fill="#3178c6" opacity="0.85">
+        <animate attributeName="width" from="0" to="93.0" dur="0.8s" begin="0.0s" fill="freeze"/>
       </rect>
-      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">46.8%</text>
+      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">46.5%</text>
     </g>
     <g transform="translate(30, 87)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">Python</text>
-      <rect x="110" y="-6" width="56.00000000000001" height="12" rx="3" fill="#3572A5" opacity="0.85">
-        <animate attributeName="width" from="0" to="56.00000000000001" dur="0.8s" begin="0.1s" fill="freeze"/>
+      <rect x="110" y="-6" width="56.99999999999999" height="12" rx="3" fill="#3572A5" opacity="0.85">
+        <animate attributeName="width" from="0" to="56.99999999999999" dur="0.8s" begin="0.1s" fill="freeze"/>
       </rect>
-      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">28.0%</text>
+      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">28.5%</text>
     </g>
     <g transform="translate(30, 109)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">JavaScript</text>
-      <rect x="110" y="-6" width="48.0" height="12" rx="3" fill="#f1e05a" opacity="0.85">
-        <animate attributeName="width" from="0" to="48.0" dur="0.8s" begin="0.2s" fill="freeze"/>
+      <rect x="110" y="-6" width="47.6" height="12" rx="3" fill="#f1e05a" opacity="0.85">
+        <animate attributeName="width" from="0" to="47.6" dur="0.8s" begin="0.2s" fill="freeze"/>
       </rect>
-      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">24.0%</text>
+      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">23.8%</text>
     </g>
     <g transform="translate(30, 131)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">Jupyter Notebook</text>
