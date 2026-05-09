@@ -37,4 +37,4 @@
 
 ## GitHub Activity
 
-![GitHub Contribution Graph](https://ghchart.rshah.org/cclank)
+![GitHub Contribution Graph](https://ghchart.rshah.org/00d4ff/cclank)
