@@ -34,3 +34,7 @@
 - 🎯 **[lanshu-tiktok-snatcher](https://github.com/cclank/lanshu-tiktok-snatcher)** - Fully automated TikTok viral-video harvester.
 - 🎞️ **[timeslice-fusion](https://github.com/cclank/timeslice-fusion)** - Fuse 360° panoramic footage with selfies into cinematic shorts.
 - 🤖 **[feishu-multi-agent](https://github.com/cclank/feishu-multi-agent)** - Wizard for multi-bot / multi-agent routing on Feishu (OpenClaw).
+
+## GitHub Activity
+
+![GitHub Contribution Graph](https://ghchart.rshah.org/cclank)
