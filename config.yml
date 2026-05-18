@@ -2,47 +2,47 @@ username: cclank
 
 profile:
   name: "cclank"
-  tagline: "AI Engineer & Open Source Builder"
+  tagline: "AI Tooling, Knowledge Systems & 3D Interfaces"
   company: "Independent"
   location: "United States"
   bio: |
-    Building practical AI tooling and automation workflows.
-    Focused on agent systems, developer productivity, and open-source projects.
-  philosophy: '"Ship useful things, then iterate fast."'
+    Building practical AI products, source-grounded knowledge bases, and automation workflows.
+    Current focus: useful agent systems, visual learning tools, and developer productivity.
+  philosophy: '"Build the useful version first, then make it sharper."'
 
 social:
   website: "https://github.com/cclank"
 
 galaxy_arms:
-  - name: "AI Agents"
+  - name: "3D Interfaces"
     color: "dendrite_violet"
     items:
       - "TypeScript"
-      - "Python"
-      - "Claude Code"
-  - name: "Backend"
+      - "React"
+      - "Three.js"
+  - name: "Knowledge Systems"
     color: "synapse_cyan"
     items:
-      - "Node.js"
-      - "SQLite"
-      - "Docker"
-  - name: "Platform"
+      - "Python"
+      - "Obsidian"
+      - "Source Anchors"
+  - name: "Agent Workflows"
     color: "axon_amber"
     items:
-      - "GitHub Actions"
-      - "MCP"
       - "Automation"
+      - "MCP"
+      - "GitHub Actions"
 
 projects:
-  - repo: "cclank/nanoclaw"
-    arm: 1
-    description: "A lightweight personal AI assistant with container isolation and scheduled jobs."
-  - repo: "cclank/openclaw"
+  - repo: "cclank/cell-architecture-studio"
     arm: 0
-    description: "Personal AI assistant framework for multi-platform workflows."
-  - repo: "cclank/model-ui-arena"
+    description: "Interactive 3D biology gallery with GLB assets and visual checks."
+  - repo: "cclank/x-algorithm-wiki"
+    arm: 1
+    description: "Source-anchored wiki for the X For You recommendation stack."
+  - repo: "cclank/news-aggregator-skill"
     arm: 2
-    description: "Model UI exploration and interaction playground."
+    description: "28-source news workflow that reads articles and writes briefings."
 
 stats:
   metrics:
