@@ -62,7 +62,7 @@ class GitHubAPI:
     def _fetch_stats_graphql(self) -> dict:
         """Fetch stats via GraphQL for accurate counts including private contributions."""
         query = """
-        query($username: String!) {
+        query($username: String!, $repoCursor: String) {
           user(login: $username) {
             repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) {
               totalCount
@@ -73,8 +73,12 @@ class GitHubAPI:
             issues {
               totalCount
             }
-            repositories(ownerAffiliations: OWNER, first: 100) {
+            repositories(ownerAffiliations: OWNER, first: 100, after: $repoCursor) {
               totalCount
+              pageInfo {
+                hasNextPage
+                endCursor
+              }
               nodes {
                 stargazerCount
               }
@@ -86,42 +90,66 @@ class GitHubAPI:
           }
         }
         """
-        try:
-            resp = self._request(
-                "POST",
-                self.GRAPHQL_URL,
-                json={"query": query, "variables": {"username": self.username}},
-            )
-            resp.raise_for_status()
-        except requests.exceptions.Timeout:
-            logger.warning("GraphQL request timed out, falling back to REST.")
-            return self._fetch_stats_rest()
-        except requests.exceptions.HTTPError as e:
-            logger.warning("GraphQL HTTP error (%s), falling back to REST.", e)
-            return self._fetch_stats_rest()
+        cursor = None
+        user_stats = None
+        total_stars = 0
+        total_repos = 0
 
-        data = resp.json()
+        while True:
+            try:
+                resp = self._request(
+                    "POST",
+                    self.GRAPHQL_URL,
+                    json={
+                        "query": query,
+                        "variables": {
+                            "username": self.username,
+                            "repoCursor": cursor,
+                        },
+                    },
+                )
+                resp.raise_for_status()
+            except requests.exceptions.Timeout:
+                logger.warning("GraphQL request timed out, falling back to REST.")
+                return self._fetch_stats_rest()
+            except requests.exceptions.HTTPError as e:
+                logger.warning("GraphQL HTTP error (%s), falling back to REST.", e)
+                return self._fetch_stats_rest()
 
-        if "errors" in data:
-            logger.warning("GraphQL errors: %s", data["errors"])
-            return self._fetch_stats_rest()
+            data = resp.json()
 
-        user = data["data"]["user"]
-        contrib = user["contributionsCollection"]
-        repos = user["repositories"]
+            if "errors" in data:
+                logger.warning("GraphQL errors: %s", data["errors"])
+                return self._fetch_stats_rest()
 
-        total_stars = sum(n["stargazerCount"] for n in repos["nodes"])
-        total_commits = (
-            contrib["totalCommitContributions"]
-            + contrib["restrictedContributionsCount"]
-        )
+            user = data["data"]["user"]
+            contrib = user["contributionsCollection"]
+            repos = user["repositories"]
+
+            if user_stats is None:
+                user_stats = {
+                    "commits": (
+                        contrib["totalCommitContributions"]
+                        + contrib["restrictedContributionsCount"]
+                    ),
+                    "prs": user["pullRequests"]["totalCount"],
+                    "issues": user["issues"]["totalCount"],
+                }
+                total_repos = repos["totalCount"]
+
+            total_stars += sum(n["stargazerCount"] for n in repos["nodes"])
+
+            page_info = repos["pageInfo"]
+            if not page_info["hasNextPage"]:
+                break
+            cursor = page_info["endCursor"]
 
         return {
-            "commits": total_commits,
+            "commits": user_stats["commits"],
             "stars": total_stars,
-            "prs": user["pullRequests"]["totalCount"],
-            "issues": user["issues"]["totalCount"],
-            "repos": repos["totalCount"],
+            "prs": user_stats["prs"],
+            "issues": user_stats["issues"],
+            "repos": total_repos,
         }
 
     def _fetch_stats_rest(self) -> dict:
