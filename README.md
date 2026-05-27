@@ -10,18 +10,6 @@
 
 <br/>
 
-<div align="center">
-  <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
-</div>
-
-<br/>
-
 ## Now Shipping
 
 <table>
