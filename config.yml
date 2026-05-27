@@ -34,15 +34,18 @@ galaxy_arms:
       - "GitHub Actions"
 
 projects:
+  - repo: "cclank/lanshu-awesome-ai-video-kit"
+    arm: 1
+    description: "AI video kit with prompts, model notes, skills, and field guides."
   - repo: "cclank/cell-architecture-studio"
     arm: 0
     description: "Interactive 3D biology gallery with GLB assets and visual checks."
-  - repo: "cclank/x-algorithm-wiki"
-    arm: 1
-    description: "Source-anchored wiki for the X For You recommendation stack."
   - repo: "cclank/news-aggregator-skill"
     arm: 2
     description: "28-source news workflow that reads articles and writes briefings."
+  - repo: "cclank/x-algorithm-wiki"
+    arm: 1
+    description: "Source-anchored wiki for the X For You recommendation stack."
 
 stats:
   metrics:

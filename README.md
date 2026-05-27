@@ -27,6 +27,19 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>Lanshu Awesome AI Video Kit</h3>
+      <p>
+        <a href="https://github.com/cclank/lanshu-awesome-ai-video-kit"><strong>cclank/lanshu-awesome-ai-video-kit</strong></a>
+      </p>
+      <p>Enterprise-tested AI video toolkit with 411 prompts, 15 model notes, 7 Claude Skills, and 14 production guides.</p>
+      <p>
+        <a href="https://lanshu-awesome-ai-video-kit.lank.workers.dev">Live site</a>
+        · HTML
+        · AI video
+        · prompt engineering
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3>Cell Architecture Studio</h3>
       <p>
         <a href="https://github.com/cclank/cell-architecture-studio"><strong>cclank/cell-architecture-studio</strong></a>
@@ -37,6 +50,20 @@
         · TypeScript
         · Three.js
         · visual verification
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>News Aggregator Skill</h3>
+      <p>
+        <a href="https://github.com/cclank/news-aggregator-skill"><strong>cclank/news-aggregator-skill</strong></a>
+      </p>
+      <p>28-source news workflow that reads full articles, filters signal, and ships source-grounded briefings.</p>
+      <p>
+        Python
+        · automation
+        · research workflow
       </p>
     </td>
     <td width="50%" valign="top">
@@ -74,6 +101,7 @@
 
 ### Creative Media & Visual Tools
 
+- **[lanshu-awesome-ai-video-kit](https://github.com/cclank/lanshu-awesome-ai-video-kit)** - AI video project kit with 411 prompts, 15 model notes, 7 Claude Skills, and 14 production guides.
 - **[cell-architecture-studio](https://github.com/cclank/cell-architecture-studio)** - Interactive 3D cell gallery with GLB rendering, comparison mode, and an AI Tutor panel.
 - **[lanshu-waytovideo](https://github.com/cclank/lanshu-waytovideo)** - Drives Jianying Cloud plus Seedance 2.0 to produce T2V / I2V / V2V runs on autopilot.
 - **[recipe-generator](https://github.com/cclank/recipe-generator)** - Michelin-grade recipes paired with high-fidelity image prompts.
