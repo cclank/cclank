@@ -107,7 +107,3 @@
 - **[lanshu-comfy-lib](https://github.com/cclank/lanshu-comfy-lib)** - Lanshu's ComfyUI toolbox: curated nodes, workflows, and recipes.
 - **[gemini-downloader-extension](https://github.com/cclank/gemini-downloader-extension)** - Bulk-download Gemini chat images with watermark removal.
 - **[lanshu-tiktok-snatcher](https://github.com/cclank/lanshu-tiktok-snatcher)** - Fully automated TikTok viral-video harvester.
-
-## GitHub Activity
-
-![GitHub Contribution Graph](https://ghchart.rshah.org/00d4ff/cclank)
