@@ -14,7 +14,20 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <h3>⏱ Tokei 時計</h3>
+      <p>
+        <a href="https://github.com/cclank/tokei"><strong>cclank/tokei</strong></a>
+      </p>
+      <p>macOS menu bar app that tracks usage, cost, and performance across 8 AI coding tools in real-time — all from local logs, zero network traffic.</p>
+      <p>
+        <a href="https://tokei.lanshuagent.com">Official site</a>
+        · Swift
+        · AI dev tools
+        · privacy-first
+      </p>
+    </td>
+    <td width="33%" valign="top">
       <h3>Lanshu Awesome AI Video Kit</h3>
       <p>
         <a href="https://github.com/cclank/lanshu-awesome-ai-video-kit"><strong>cclank/lanshu-awesome-ai-video-kit</strong></a>
@@ -27,7 +40,7 @@
         · prompt engineering
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>Cell Architecture Studio</h3>
       <p>
         <a href="https://github.com/cclank/cell-architecture-studio"><strong>cclank/cell-architecture-studio</strong></a>
@@ -42,7 +55,7 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>News Aggregator Skill</h3>
       <p>
         <a href="https://github.com/cclank/news-aggregator-skill"><strong>cclank/news-aggregator-skill</strong></a>
@@ -54,7 +67,7 @@
         · research workflow
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>X Algorithm Wiki</h3>
       <p>
         <a href="https://github.com/cclank/x-algorithm-wiki"><strong>cclank/x-algorithm-wiki</strong></a>
@@ -65,6 +78,8 @@
         · source line anchors
         · Obsidian-ready
       </p>
+    </td>
+    <td width="33%" valign="top">
     </td>
   </tr>
 </table>
@@ -101,6 +116,7 @@
 
 ### Developer Tools & Infrastructure
 
+- **[tokei](https://github.com/cclank/tokei)** - macOS menu bar app tracking usage, cost, and performance across 8 AI coding tools — local logs only, zero network traffic.
 - **[modelbox](https://github.com/cclank/modelbox)** - OpenAI-protocol proxy for context debugging: mock, passthrough, and capture payloads.
 - **[model-ui-arena](https://github.com/cclank/model-ui-arena)** - Standardized arena for comparing LLM UI outputs side by side under shared constraints.
 - **[localsign](https://github.com/cclank/localsign)** - Local-first signature tool for images and PDFs; everything runs in the browser.
