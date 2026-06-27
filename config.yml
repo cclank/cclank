@@ -2,50 +2,56 @@ username: cclank
 
 profile:
   name: "cclank"
-  tagline: "AI Tooling, Knowledge Systems & 3D Interfaces"
+  tagline: "AI Tooling, Memory Systems & Visual Interfaces"
   company: "Independent"
   location: "United States"
   bio: |
-    Building practical AI products, source-grounded knowledge bases, and automation workflows.
-    Current focus: useful agent systems, visual learning tools, and developer productivity.
+    Building local-first AI tooling, agent memory infrastructure, and visual explanation systems.
+    Current focus: practical developer tools, portable knowledge workflows, and animated technical media.
   philosophy: '"Build the useful version first, then make it sharper."'
 
 social:
   website: "https://github.com/cclank"
 
 galaxy_arms:
-  - name: "3D Interfaces"
+  - name: "Visual Systems"
     color: "dendrite_violet"
     items:
-      - "TypeScript"
-      - "React"
+      - "Excalidraw"
       - "Three.js"
-  - name: "Knowledge Systems"
+      - "Animated GIF"
+  - name: "Memory & Knowledge"
     color: "synapse_cyan"
     items:
       - "Python"
-      - "Obsidian"
+      - "Local Memory"
       - "Source Anchors"
-  - name: "Agent Workflows"
+  - name: "Agent Tooling"
     color: "axon_amber"
     items:
       - "Automation"
+      - "Local Logs"
       - "MCP"
-      - "GitHub Actions"
 
 projects:
+  - repo: "cclank/tokei"
+    arm: 2
+    description: "macOS menu bar analytics for AI coding tools from local logs."
+  - repo: "cclank/lanshu-animated-architecture-diagram"
+    arm: 0
+    description: "Animated hand-drawn architecture diagrams with Excalidraw outputs."
+  - repo: "cclank/everos-memory-archive"
+    arm: 1
+    description: "Local backup and portable archive for agent memories."
+  - repo: "cclank/cell-architecture-studio"
+    arm: 0
+    description: "Interactive 3D cell gallery with GLB models and AI tutor flows."
+  - repo: "cclank/news-aggregator-skill"
+    arm: 2
+    description: "Full-article news workflow that writes source-grounded briefings."
   - repo: "cclank/lanshu-awesome-ai-video-kit"
     arm: 1
     description: "AI video kit with prompts, model notes, skills, and field guides."
-  - repo: "cclank/cell-architecture-studio"
-    arm: 0
-    description: "Interactive 3D biology gallery with GLB assets and visual checks."
-  - repo: "cclank/news-aggregator-skill"
-    arm: 2
-    description: "28-source news workflow that reads articles and writes briefings."
-  - repo: "cclank/x-algorithm-wiki"
-    arm: 1
-    description: "Source-anchored wiki for the X For You recommendation stack."
 
 stats:
   metrics:
