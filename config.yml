@@ -2,56 +2,56 @@ username: cclank
 
 profile:
   name: "cclank"
-  tagline: "AI Tooling, Memory Systems & Visual Interfaces"
+  tagline: "AI Tooling, Media Workflows & Visual Systems"
   company: "Independent"
   location: "United States"
   bio: |
-    Building local-first AI tooling, agent memory infrastructure, and visual explanation systems.
-    Current focus: practical developer tools, portable knowledge workflows, and animated technical media.
+    Building practical Codex skills, verifiable media workflows, and open-source tools for developer ecosystems.
+    Current focus: AI presenter production, article-to-video pipelines, plugin discovery, and visual explanation.
   philosophy: '"Build the useful version first, then make it sharper."'
 
 social:
   website: "https://github.com/cclank"
 
 galaxy_arms:
-  - name: "Visual Systems"
+  - name: "Media Workflows"
     color: "dendrite_violet"
+    items:
+      - "Remotion"
+      - "FFmpeg"
+      - "QA Gates"
+  - name: "Visual Systems"
+    color: "synapse_cyan"
     items:
       - "Excalidraw"
       - "Three.js"
-      - "Animated GIF"
-  - name: "Memory & Knowledge"
-    color: "synapse_cyan"
-    items:
-      - "Python"
-      - "Local Memory"
-      - "Source Anchors"
+      - "Motion"
   - name: "Agent Tooling"
     color: "axon_amber"
     items:
-      - "Automation"
-      - "Local Logs"
-      - "MCP"
+      - "Codex Skills"
+      - "Plugin Evidence"
+      - "Local-first"
 
 projects:
+  - repo: "cclank/lanshu-create-ai-presenter-video"
+    arm: 0
+    description: "Provider-neutral presenter video workflow with quality gates."
+  - repo: "cclank/dsh-plugin-hub"
+    arm: 2
+    description: "Evidence-backed registry for the DeepSeek Harness plugin ecosystem."
+  - repo: "cclank/lanshu-html2video-skill"
+    arm: 0
+    description: "Reviewable article-to-video pipeline powered by Remotion."
   - repo: "cclank/tokei"
     arm: 2
     description: "macOS menu bar analytics for AI coding tools from local logs."
   - repo: "cclank/lanshu-animated-architecture-diagram"
-    arm: 0
+    arm: 1
     description: "Animated hand-drawn architecture diagrams with Excalidraw outputs."
-  - repo: "cclank/everos-memory-archive"
-    arm: 1
-    description: "Local backup and portable archive for agent memories."
   - repo: "cclank/cell-architecture-studio"
-    arm: 0
-    description: "Interactive 3D cell gallery with GLB models and AI tutor flows."
-  - repo: "cclank/news-aggregator-skill"
-    arm: 2
-    description: "Full-article news workflow that writes source-grounded briefings."
-  - repo: "cclank/lanshu-awesome-ai-video-kit"
     arm: 1
-    description: "AI video kit with prompts, model notes, skills, and field guides."
+    description: "Interactive 3D cell gallery with GLB models and AI tutor flows."
 
 stats:
   metrics:

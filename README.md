@@ -15,6 +15,44 @@
 <table>
   <tr>
     <td width="33%" valign="top">
+      <h3>AI Presenter Video</h3>
+      <p>
+        <a href="https://github.com/cclank/lanshu-create-ai-presenter-video"><strong>cclank/lanshu-create-ai-presenter-video</strong></a>
+      </p>
+      <p>Provider-neutral Codex skill for producing QA-checked presenter videos from a script and an authorized presenter image.</p>
+      <p>
+        Python
+        · FFmpeg
+        · digital human
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>DSH Plugin Hub</h3>
+      <p>
+        <a href="https://github.com/cclank/dsh-plugin-hub"><strong>cclank/dsh-plugin-hub</strong></a>
+      </p>
+      <p>Searchable DeepSeek Harness plugin registry with commit-pinned install evidence, plugin passports, and transparent risk signals.</p>
+      <p>
+        <a href="https://dsh.lanshuagent.com/">Live site</a>
+        · Cloudflare Workers
+        · TypeScript
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>HTML2Video</h3>
+      <p>
+        <a href="https://github.com/cclank/lanshu-html2video-skill"><strong>cclank/lanshu-html2video-skill</strong></a>
+      </p>
+      <p>Codex skill that turns web articles into reviewable 1080p videos through a deterministic Remotion pipeline.</p>
+      <p>
+        TypeScript
+        · Remotion
+        · article-to-video
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
       <h3>Tokei 知度</h3>
       <p>
         <a href="https://github.com/cclank/tokei"><strong>cclank/tokei</strong></a>
@@ -23,7 +61,6 @@
       <p>
         <a href="https://tokei.lanshuagent.com">Official site</a>
         · macOS
-        · AI dev tools
         · local logs
       </p>
     </td>
@@ -52,44 +89,6 @@
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>News Aggregator Skill</h3>
-      <p>
-        <a href="https://github.com/cclank/news-aggregator-skill"><strong>cclank/news-aggregator-skill</strong></a>
-      </p>
-      <p>Full-article news workflow that pulls multi-source feeds, filters weak signal, and writes source-grounded briefings.</p>
-      <p>
-        Python
-        · news intelligence
-        · source-grounded
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Lanshu Awesome AI Video Kit</h3>
-      <p>
-        <a href="https://github.com/cclank/lanshu-awesome-ai-video-kit"><strong>cclank/lanshu-awesome-ai-video-kit</strong></a>
-      </p>
-      <p>AI video production kit with 411 prompts, 15 model notes, 7 Claude Skills, and field-tested workflow guides.</p>
-      <p>
-        <a href="https://lanshu-awesome-ai-video-kit.lank.workers.dev">Live site</a>
-        · AI video
-        · Claude Skills
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>EverOS Memory Archive</h3>
-      <p>
-        <a href="https://github.com/cclank/everos-memory-archive"><strong>cclank/everos-memory-archive</strong></a>
-      </p>
-      <p>Local-only backup pipeline for Codex and Claude Code memories, with redacted Markdown snapshots, SQLite manifests, and portable Memory Packs.</p>
-      <p>
-        Python
-        · local-first
-        · agent memory
-      </p>
-    </td>
-  </tr>
 </table>
 
 ## Project Map
@@ -114,20 +113,17 @@
 
 ### Creative Media & Visual Tools
 
+- **[lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video)** - Provider-neutral Codex skill for presenter video production, lip sync, captions, editing, and QA.
+- **[lanshu-html2video-skill](https://github.com/cclank/lanshu-html2video-skill)** - Turns web articles into reviewable 1080p videos with structured storyboards and Remotion.
 - **[lanshu-animated-architecture-diagram](https://github.com/cclank/lanshu-animated-architecture-diagram)** - Premium animated architecture diagrams with Excalidraw, PNG, and GIF outputs.
 - **[cell-architecture-studio](https://github.com/cclank/cell-architecture-studio)** - Interactive 3D cell gallery with GLB rendering, comparison mode, and an AI Tutor panel.
 - **[lanshu-awesome-ai-video-kit](https://github.com/cclank/lanshu-awesome-ai-video-kit)** - AI video project kit with 411 prompts, 15 model notes, 7 Claude Skills, and production guides.
 - **[lanshu-waytovideo](https://github.com/cclank/lanshu-waytovideo)** - Drives Jianying Cloud plus Seedance 2.0 to produce T2V / I2V / V2V runs on autopilot.
-- **[recipe-generator](https://github.com/cclank/recipe-generator)** - Michelin-grade recipes paired with high-fidelity image prompts.
-- **[lumina-style-studio](https://github.com/cclank/lumina-style-studio)** - Live website palette studio: tweak colors and watch the theme follow.
-- **[xhs-cover-skill](https://github.com/cclank/xhs-cover-skill)** - One-shot Xiaohongshu cover and infographic prompt generator.
 
-### Developer Tools & Infrastructure
+### Developer Tools & Ecosystems
 
+- **[dsh-plugin-hub](https://github.com/cclank/dsh-plugin-hub)** - DeepSeek Harness plugin directory with commit-pinned install evidence, version diffs, and risk signals.
 - **[tokei](https://github.com/cclank/tokei)** - macOS menu bar app tracking usage, cost, quota, and performance across 9 AI coding tools.
 - **[modelbox](https://github.com/cclank/modelbox)** - OpenAI-protocol proxy for context debugging: mock, passthrough, and capture payloads.
 - **[model-ui-arena](https://github.com/cclank/model-ui-arena)** - Standardized arena for comparing LLM UI outputs side by side under shared constraints.
 - **[localsign](https://github.com/cclank/localsign)** - Local-first signature tool for images and PDFs; everything runs in the browser.
-- **[lanshu-comfy-lib](https://github.com/cclank/lanshu-comfy-lib)** - Lanshu's ComfyUI toolbox: curated nodes, workflows, and recipes.
-- **[gemini-downloader-extension](https://github.com/cclank/gemini-downloader-extension)** - Bulk-download Gemini chat images with watermark removal.
-- **[lanshu-tiktok-snatcher](https://github.com/cclank/lanshu-tiktok-snatcher)** - Fully automated TikTok viral-video harvester.
