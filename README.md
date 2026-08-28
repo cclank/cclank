@@ -57,7 +57,7 @@
       <p>
         <a href="https://github.com/cclank/tokei"><strong>cclank/tokei</strong></a>
       </p>
-      <p>macOS menu bar app for tracking usage, cost, quota, and performance across 9 AI coding tools from local logs.</p>
+      <p>macOS menu bar app for tracking usage, cost, quota, and performance across 18 AI tools from local logs.</p>
       <p>
         <a href="https://tokei.lanshuagent.com">Official site</a>
         · macOS
@@ -95,7 +95,7 @@
 
 ### AI Agents & Automation
 
-- **[news-aggregator-skill](https://github.com/cclank/news-aggregator-skill)** - 28-source news firehose that reads full articles and ships substantive briefings.
+- **[news-aggregator-skill](https://github.com/cclank/news-aggregator-skill)** - Full-article news workflow with 44+ built-in sources, custom OPML feeds, and source-grounded briefings.
 - **[Hermes-Wiki](https://github.com/cclank/Hermes-Wiki)** - Hermes agent source plus an LLM-curated wiki for reading the architecture.
 - **[lanshu-wiki-skill](https://github.com/cclank/lanshu-wiki-skill)** - Claude Code skill for turning codebases into Karpathy-style LLM Wikis.
 - **[lanshu-idea-incubator](https://github.com/cclank/lanshu-idea-incubator)** - Multi-agent debate workflow that turns raw ideas into go / no-go decisions.
@@ -117,13 +117,13 @@
 - **[lanshu-html2video-skill](https://github.com/cclank/lanshu-html2video-skill)** - Turns web articles into reviewable 1080p videos with structured storyboards and Remotion.
 - **[lanshu-animated-architecture-diagram](https://github.com/cclank/lanshu-animated-architecture-diagram)** - Premium animated architecture diagrams with Excalidraw, PNG, and GIF outputs.
 - **[cell-architecture-studio](https://github.com/cclank/cell-architecture-studio)** - Interactive 3D cell gallery with GLB rendering, comparison mode, and an AI Tutor panel.
-- **[lanshu-awesome-ai-video-kit](https://github.com/cclank/lanshu-awesome-ai-video-kit)** - AI video project kit with 411 prompts, 15 model notes, 7 Claude Skills, and production guides.
+- **[lanshu-awesome-ai-video-kit](https://github.com/cclank/lanshu-awesome-ai-video-kit)** - AI video production kit with 543 prompts, 15 model guides, 7 Claude Skills, and 21 field-tested SOPs.
 - **[lanshu-waytovideo](https://github.com/cclank/lanshu-waytovideo)** - Drives Jianying Cloud plus Seedance 2.0 to produce T2V / I2V / V2V runs on autopilot.
 
 ### Developer Tools & Ecosystems
 
 - **[dsh-plugin-hub](https://github.com/cclank/dsh-plugin-hub)** - DeepSeek Harness plugin directory with commit-pinned install evidence, version diffs, and risk signals.
-- **[tokei](https://github.com/cclank/tokei)** - macOS menu bar app tracking usage, cost, quota, and performance across 9 AI coding tools.
+- **[tokei](https://github.com/cclank/tokei)** - macOS menu bar app tracking usage, cost, quota, and performance across 18 AI tools.
 - **[modelbox](https://github.com/cclank/modelbox)** - OpenAI-protocol proxy for context debugging: mock, passthrough, and capture payloads.
 - **[model-ui-arena](https://github.com/cclank/model-ui-arena)** - Standardized arena for comparing LLM UI outputs side by side under shared constraints.
 - **[localsign](https://github.com/cclank/localsign)** - Local-first signature tool for images and PDFs; everything runs in the browser.
